@@ -3,6 +3,7 @@ import Nav from "@/components/Nav";
 import MobileNav from "@/components/MobileNav";
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
+import Footer from "@/components/Footer";
 
 const HomePage = () => {
     const [nav, setNav] = useState(false);
@@ -20,6 +21,10 @@ const HomePage = () => {
                 <Hero />
                 {/* About Section */}
                 <AboutSection />
+
+
+                {/* Footer */}
+                <Footer />
             </div>
         </div>
     );
