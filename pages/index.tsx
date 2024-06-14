@@ -1,15 +1,22 @@
+import React, { useState } from "react";
 import Nav from "@/components/Nav";
+import MobileNav from "@/components/MobileNav";
 
 const HomePage = () => {
+    const [nav, setNav] = useState(false);
 
-  return (
-      <div className="overflow-x-hidden">
-        <div>
-          {/* Nav Bar */}
-          <Nav />
+    const openNav = () => setNav(true);
+    const closeNav = () => setNav(false);
+
+    return (
+        <div className="overflow-x-hidden">
+            <div>
+                {/* Nav Bar */}
+                <MobileNav nav={nav} closeNav={closeNav} />
+                <Nav openNav={openNav} />
+            </div>
         </div>
-      </div>
-  );
+    );
 };
 
 export default HomePage;
