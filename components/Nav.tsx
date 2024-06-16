@@ -1,6 +1,7 @@
 import { Bars3Icon } from '@heroicons/react/16/solid';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import React from 'react';
+import { Link } from 'react-scroll';
 
 interface Props {
     openNav: () => void;
@@ -14,9 +15,9 @@ const Nav = ({ openNav }: Props) => {
                 <span className='text-yellow-300'>DEV</span>
             </h1>
             <div className="flex space-x-4 items-center">
-                <div className='nav-link text-white'>ABOUT</div>
-                <div className='nav-link text-white'>SKILLS</div>
-                <div className='nav-link text-white'>PROJECTS</div>
+                <Link to="about" smooth={true} duration={500} spy={true} offset={-70} className='nav-link text-white cursor-pointer'>ABOUT</Link>
+                <Link to="skills" smooth={true} duration={500} spy={true} offset={-70} className='nav-link text-white cursor-pointer'>SKILLS</Link>
+                <Link to="projects" smooth={true} duration={500} spy={true} offset={-70} className='nav-link text-white cursor-pointer'>PROJECTS</Link>
                 <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="w-6 h-6 text-white hover:text-yellow-300" />
                 </a>
