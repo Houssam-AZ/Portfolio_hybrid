@@ -52,11 +52,11 @@ const AboutSection: React.FC = () => {
     return (
         <section className="about-section relative bg-cover bg-center py-20" style={{ backgroundImage: "url('/images/banner.jpg')" }}>
             <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-[3rem] h-full items-start relative z-10">
-                <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center h-[500px]">
+                <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center h-[500px] rounded-xl overflow-hidden border-4 border-yellow-400">
                     <Image src="/images/1.jpg" alt="user" layout="fill" className="object-cover" />
                 </div>
                 <div className="text-left flex flex-col h-full">
-                    <h1 className="text-[35px] md:text-[50px] text-white font-bold">
+                    <h1 className="text-[35px] md:text-[50px] text-white font-bold text-center lg:text-left">
                         About Me
                     </h1>
                     <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
