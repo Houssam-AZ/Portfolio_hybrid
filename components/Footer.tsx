@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className="pt-16 pb-8 bg-[#02050a] relative">
-            <div className="grid border-b border-gray-400 pb-8 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-4/5 mx-auto gap-8">
+        <div className="py-2 bg-[#02050a] relative">
+            <div className="grid border-b border-gray-400 pb-6 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-4/5 mx-auto gap-6"> {/* Reduced padding bottom */}
                 <div className="flex items-center space-x-4">
                     <div className="flex-shrink-0 w-20 h-20 md:w-26 md:h-26 flex items-center justify-center rounded-full bg-[#55e6a5]">
                         <MapPinIcon className="w-14 h-14 md:w-16 md:h-16 text-black" />
@@ -46,8 +46,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-4/5 mt-8 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between">
-                <div className="text-lg mb-8 md:mb-0 text-white opacity-20">
+            <div className="w-4/5 mt-6 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between"> {/* Reduced top margin */}
+                <div className="text-lg mb-4 md:mb-0 text-white opacity-20">
                     2024 | All Rights Reserved
                 </div>
                 <div className="flex justify-center md:justify-end space-x-6">
