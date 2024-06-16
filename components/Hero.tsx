@@ -6,7 +6,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 
 const Hero = () => {
     return (
-        <div className="h-[88vh] relative bg-[url('/images/banner.jpg')] bg-cover bg-center">
+        <div className="h-[88vh] relative bg-cover bg-center">
             <Particle />
             <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-full items-center relative z-10">
                 <div>
@@ -31,7 +31,7 @@ const Hero = () => {
                         </button>
                     </div>
                 </div>
-                <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
+                <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px] overflow-hidden border-4 border-yellow-400">
                     <Image src="/images/1.jpg" alt="user" layout="fill" className="object-cover rounded-full" />
                 </div>
             </div>
