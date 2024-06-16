@@ -4,6 +4,7 @@ import MobileNav from "@/components/MobileNav";
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 
 const HomePage = () => {
@@ -24,6 +25,8 @@ const HomePage = () => {
                 <AboutSection />
                 {/* Skills Section */}
                 <Skills />
+                {/* Projects Section */}
+                <Projects />
                 {/* Footer */}
                 <Footer />
             </div>
