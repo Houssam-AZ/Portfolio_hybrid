@@ -155,7 +155,7 @@ const AboutSection: React.FC = () => {
                     <p className="mt-[1.5rem] text-[18px] text-white leading-relaxed">
                         My ambition is to excel in the programming world, creating innovative solutions that can make a difference. I am passionate about solving complex problems and constantly improving my skills to stay at the forefront of technology. Alongside my academic pursuits, I enjoy sports like football and fitness, which help me maintain a balanced lifestyle and a healthy mind. I am excited about the future and the endless possibilities that come with a career in programming.
                     </p>
-                    <div className="flex flex-row mt-8 space-x-4">
+                    <div className="flex flex-col mt-8 space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0">
                         <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education</TabButton>
                         <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}>Experience</TabButton>
                         <TabButton selectTab={() => handleTabChange("languages")} active={tab === "languages"}>Languages</TabButton>
