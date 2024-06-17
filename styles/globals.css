@@ -13,6 +13,25 @@
     after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100
     after:transition after:duration-300 after:origin-center;
   }
+
+  /* AboutSection */
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .icon-item {
+    font-size: 5rem; /* Adjust as needed */
+  }
+
+  @media (max-width: 768px) {
+    .icon-item {
+      font-size: 3rem; /* Adjust for smaller screens */
+    }
+  }
+
 }
 
 :root {

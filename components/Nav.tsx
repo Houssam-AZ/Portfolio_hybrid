@@ -18,10 +18,10 @@ const Nav = ({ openNav }: Props) => {
                 <Link to="about" smooth={true} duration={500} spy={true} offset={-70} className='nav-link text-white cursor-pointer'>ABOUT</Link>
                 <Link to="skills" smooth={true} duration={500} spy={true} offset={-70} className='nav-link text-white cursor-pointer'>SKILLS</Link>
                 <Link to="projects" smooth={true} duration={500} spy={true} offset={-70} className='nav-link text-white cursor-pointer'>PROJECTS</Link>
-                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/houssam-aberzak-8144411a1/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="w-6 h-6 text-white hover:text-yellow-300" />
                 </a>
-                <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Houssam-AZ" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="w-6 h-6 text-white hover:text-yellow-300" />
                 </a>
                 <div onClick={openNav} className="md:hidden cursor-pointer">

@@ -15,7 +15,7 @@ const Hero = () => {
                         <br />
                     </h1>
                     <TextEffect />
-                    <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
+                    <p className="mt-[1.5rem] text-[18px] text-white leading-relaxed">
                         I am a second-year graduate programming student at Thomas More University of Applied Sciences. I graduated in 2020 with a bachelor&#39;s degree in computer systems engineering in Morocco. My academic journey has equipped me with a solid foundation in software development and system analysis. Besides my studies, I am passionate about sports like football and fitness, which help me maintain a balanced lifestyle.
                     </p>
                     <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">

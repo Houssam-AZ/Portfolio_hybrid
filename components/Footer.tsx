@@ -51,10 +51,10 @@ const Footer = () => {
                     2024 | All Rights Reserved
                 </div>
                 <div className="flex justify-center md:justify-end space-x-6">
-                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Houssam-AZ" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="text-white text-2xl hover:text-gray-400 transition-colors duration-200" />
                     </a>
-                    <a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/houssam-aberzak-8144411a1/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="text-white text-2xl hover:text-gray-400 transition-colors duration-200" />
                     </a>
                 </div>

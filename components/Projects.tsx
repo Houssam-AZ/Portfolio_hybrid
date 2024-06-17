@@ -6,12 +6,9 @@ const Projects: React.FC = () => {
         <section className="py-20 relative " id="projects">
             <div className="container mx-auto px-4">
                 <div className="mb-12 text-center">
-                    <h1 className="section-title text-5xl font-bold text-white">
+                    <h1 className="section-title text-5xl font-bold text-[#55e6a5]">
                         Projects
                     </h1>
-                    <p className="section-description text-lg text-gray-400 mt-4">
-                        Check out some of my recent work.
-                    </p>
                 </div>
                 <div className="w-full pt-8 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="project-item transform cursor-pointer hover:translate-y-2 transition-all duration-200 flex flex-col items-center justify-center">
