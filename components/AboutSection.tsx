@@ -30,10 +30,6 @@ import {
     FaFirefox,
     FaSafari,
     FaNode,
-    FaCloud,
-    FaCloudUploadAlt,
-    FaCloudDownloadAlt,
-    FaCloudMeatball,
 } from 'react-icons/fa';
 import TabButton from "./TabButton";
 
@@ -112,10 +108,6 @@ const iconList = [
     FaFirefox,
     FaSafari,
     FaNode,
-    FaCloud,
-    FaCloudUploadAlt,
-    FaCloudDownloadAlt,
-    FaCloudMeatball,
 ];
 
 const AboutSection: React.FC = () => {
