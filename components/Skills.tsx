@@ -2,7 +2,16 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { IconType } from 'react-icons';
-import { FaHtml5, FaJava, FaCss3Alt, FaJs } from 'react-icons/fa';
+import {
+    FaHtml5,
+    FaJava,
+    FaCss3Alt,
+    FaJs,
+    FaBootstrap,
+    FaMicrosoft,
+    FaAndroid,
+    FaDotCircle
+} from 'react-icons/fa';
 
 const Skills: React.FC = () => {
     const responsive = {
@@ -30,6 +39,10 @@ const Skills: React.FC = () => {
         { icon: FaJava, label: 'Java' },
         { icon: FaCss3Alt, label: 'CSS' },
         { icon: FaJs, label: 'JavaScript' },
+        { icon: FaBootstrap, label: 'Bootstrap' },
+        { icon: FaMicrosoft, label: 'Microsoft Access' },
+        { icon: FaAndroid, label: 'Android Studio' },
+        { icon: FaDotCircle, label: 'Spring Boot' },
     ];
 
     return (
@@ -53,7 +66,7 @@ const Skills: React.FC = () => {
                     >
                         {/* Map through the icons array to render each item in the carousel */}
                         {icons.map((item, index) => (
-                            <div key={index} className="item flex flex-col items-center justify-center">
+                            <div key={index} className="item flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 ease-in-out">
                                 <div className="rounded-full overflow-hidden border-4 border-yellow-400 h-32 w-32 md:h-40 md:w-40 flex items-center justify-center">
                                     <item.icon className="text-5xl text-yellow-400" />
                                 </div>

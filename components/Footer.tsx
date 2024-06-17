@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <h1 className="text-2xl md:text-3xl mb-1 font-semibold text-white">
-                            Send Email
+                            Email
                         </h1>
                         <p className="text-base md:text-lg w-11/12 text-white opacity-60">
                             houssam.aberzak.p@gmail.com
@@ -46,8 +46,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-4/5 mt-6 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between"> {/* Reduced top margin */}
-                <div className="text-lg mb-4 md:mb-0 text-white opacity-20">
+            <div className="w-4/5 mt-6 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between">
+                <div className="text-lg mb-4 md:mb-0 text-white">
                     2024 | All Rights Reserved
                 </div>
                 <div className="flex justify-center md:justify-end space-x-6">

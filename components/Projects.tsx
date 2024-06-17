@@ -16,23 +16,22 @@ const Projects: React.FC = () => {
                 <div className="w-full pt-8 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="project-item transform cursor-pointer hover:translate-y-2 transition-all duration-200 flex flex-col items-center justify-center">
                         <div className="rounded-xl overflow-hidden border-4 border-yellow-400 h-[200px] md:h-[300px] w-full relative">
-                            <Image src="/images/1.jpg" alt="Project 1" layout="fill" className="object-cover" />
+                            <Image src="/images/kunstify.png" alt="Project 1" layout="fill" className="object-cover" />
                         </div>
-                        <h5 className="mt-3 text-xl font-semibold text-white">Project 1</h5>
+                        <h5 className="mt-3 text-xl font-semibold text-white">Kunstify</h5>
                     </div>
                     <div className="project-item transform cursor-pointer hover:translate-y-2 transition-all duration-200 flex flex-col items-center justify-center">
                         <div className="rounded-xl overflow-hidden border-4 border-yellow-400 h-[200px] md:h-[300px] w-full relative">
-                            <Image src="/images/2.jpg" alt="Project 2" layout="fill" className="object-cover" />
+                            <Image src="/images/houssam_pa.png" alt="Project 2" layout="fill" className="object-cover" />
                         </div>
-                        <h5 className="mt-3 text-xl font-semibold text-white">Project 2</h5>
+                        <h5 className="mt-3 text-xl font-semibold text-white">Auto Parts Houssam</h5>
                     </div>
                     <div className="project-item transform cursor-pointer hover:translate-y-2 transition-all duration-200 flex flex-col items-center justify-center">
                         <div className="rounded-xl overflow-hidden border-4 border-yellow-400 h-[200px] md:h-[300px] w-full relative">
-                            <Image src="/images/3.jpg" alt="Project 3" layout="fill" className="object-cover" />
+                            <Image src="/images/bataille_navale.png" alt="Project 3" layout="fill" className="object-cover" />
                         </div>
-                        <h5 className="mt-3 text-xl font-semibold text-white">Project 3</h5>
+                        <h5 className="mt-3 text-xl font-semibold text-white">battleship in C</h5>
                     </div>
-                    {/* Repeat similar blocks for more projects */}
                 </div>
             </div>
         </section>
