@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
     return (
         <div className="py-2 bg-[#02050a] relative">
-            <div className="grid border-b border-gray-400 pb-6 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-4/5 mx-auto gap-6"> {/* Reduced padding bottom */}
+            <div className="grid border-b border-gray-400 pb-6 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-4/5 mx-auto gap-6">
                 <div className="flex items-center space-x-4">
                     <div className="flex-shrink-0 w-20 h-20 md:w-26 md:h-26 flex items-center justify-center rounded-full bg-[#55e6a5]">
                         <MapPinIcon className="w-14 h-14 md:w-16 md:h-16 text-black" />
@@ -15,7 +15,7 @@ const Footer = () => {
                             Address
                         </h1>
                         <p className="text-base md:text-lg w-11/12 text-white opacity-60">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Antwerp, Belgium
                         </p>
                     </div>
                 </div>

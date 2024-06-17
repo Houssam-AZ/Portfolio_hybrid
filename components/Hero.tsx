@@ -19,10 +19,10 @@ const Hero = () => {
                         I am a second-year graduate programming student at Thomas More University of Applied Sciences. I graduated in 2020 with a bachelor&#39;s degree in computer systems engineering in Morocco. My academic journey has equipped me with a solid foundation in software development and system analysis. Besides my studies, I am passionate about sports like football and fitness, which help me maintain a balanced lifestyle.
                     </p>
                     <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-                        <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
+                        <a href="/Professional_cv.pdf" className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
                             <p>Download CV</p>
                             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px] overflow-hidden border-4 border-yellow-400">
