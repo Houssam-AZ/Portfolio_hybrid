@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        /* 1. FIXED: consistently use the dark theme color */
+        @apply bg-gray-900 text-white;
+    }
+}
+
+@layer components {
+    .nav-link {
+        /* 2. FIXED: Removed 'hidden' from the end. Now this class only styles, it doesn't hide. */
+        @apply relative font-semibold text-white cursor-pointer text-[17px] w-fit md:block after:block after:content-['']
+        after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100
+        after:transition after:duration-300 after:origin-center;
+    }
+
+    .nav-link-mobile {
+        @apply relative mb-8 font-semibold text-white cursor-pointer text-2xl w-fit block after:block after:content-['']
+        after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100
+        after:transition after:duration-300 after:origin-center;
+    }
+
+    .btn-primary {
+        @apply bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2 focus:ring-offset-gray-900;
+    }
+
+    .btn-secondary {
+        @apply border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-bold py-3 px-6 rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2 focus:ring-offset-gray-900;
+    }
+
+    .section-padding {
+        @apply py-16 px-4;
+    }
+
+    .container-custom {
+        @apply max-w-6xl mx-auto;
+    }
+}
+
+@layer utilities {
+    .animate-float {
+        animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+}
